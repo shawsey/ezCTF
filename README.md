@@ -1,3 +1,7 @@
+#SteelHacks 2020 Team Project - EZ_CTF
+
+An online resource for beginners to understand, research, and complete caputure the flag challenges. 
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
