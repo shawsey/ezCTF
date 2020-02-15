@@ -1,4 +1,4 @@
-#SteelHacks 2020 Team Project - EZ_CTF
+## SteelHacks 2020 Team Project - EZ_CTF
 
 An online resource for beginners to understand, research, and complete caputure the flag challenges. 
 
