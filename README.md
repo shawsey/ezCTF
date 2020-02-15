@@ -4,4 +4,6 @@ Project Name: ezCTF
 
 
 
-	https://www.codementor.io/@magarrent/how-to-install-laravel-5-xampp-windows-du107u9ji
+	LARAVEL & XAMPP SETUP --> https://www.codementor.io/@magarrent/how-to-install-laravel-5-xampp-windows-du107u9ji
+	
+	LARAVEL VIEWS DOCUMENTATION --> https://laravel.com/docs/4.2/quick
