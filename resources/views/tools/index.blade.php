@@ -33,7 +33,7 @@
     <div class="container">
 
       <h1>CTF Tool List</h1>
-      <p class="lead">Basic grid layouts to get you familiar with building within the Bootstrap grid system.</p>
+    
 
       <h3>Tools for any task</h3>
       <p>There are six categories that are covered on ezCTF, you can find different tools for each here. In the future, we would like to implement a filtration and searching system, as well as display attributes of each tool.</p>
@@ -41,9 +41,20 @@
       <hr>
 
     @foreach($tools as $tool)
-      <div class="row">
-        <div class="col-4"><a href="/tools/{{ $tool->id }}">{{ $tool->title }}</a></div>
+
+    <div class="card text-center">
+    <div class="card-header">
+     <h5 class="card-title">{{ $tool->title }}</h5>
+    </div>
+      <div class="card-body">
+        <p class="card-text">Published by: {{ $tool->publisher }}</p>
+        <p class="card-text">{{ $tool->description }}</p>
+        <p class="card-text">Category: {{ $tool->category }}</p>
+        <p class="card-text">Operating System: {{ $tool->os }}</p>
+        <a href="" class="btn btn-primary">Get</a>
       </div>
+ 
+  </div>
     @endforeach
 
       <hr>

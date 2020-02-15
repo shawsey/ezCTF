@@ -17,13 +17,10 @@ class ToolsController extends Controller
 	public function show(Tool $id)
 	{
 
-
-
-
-		    $tool = Tool::find($id);
-
-		return view('tools.show',['tool' => $id]);
-
+	    $tools = Tool::find($id);
+	 
+	    return view('tools.show', ['tool' => $id]);
+	
 
 
 	}

@@ -3,9 +3,31 @@
 @extends('layouts.default')
  
 @section('content')
- 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Pwning</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+  </head>
+
+
+    <div class="container">
+        
     <h2>Add a Tool</h2>
- 
+    
     <form method="post" action="/tools" enctype="multipart/form-data">
         {{ csrf_field() }}
         <div class="form-group row">
@@ -62,5 +84,6 @@
             </div>
         </div>
     </form>
+</div>
  
 @endsection
