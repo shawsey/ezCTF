@@ -11,6 +11,8 @@
 |
 */
 
+
+
 Route::get('/', function () {
     return view('pages.home');
 });
@@ -51,6 +53,9 @@ Route::get('pwn', function () {
 
 Route::get('tools', 'ToolsController@index');
 
+Route::get('tools/create', 'ToolsController@create');
+
 Route::get('tools/{id}','ToolsController@show');
 
-Route::get('tools/create', 'ToolsController@create');
+Route::post('tools', 'ToolsController@store');
+

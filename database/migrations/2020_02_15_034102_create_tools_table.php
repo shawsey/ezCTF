@@ -14,8 +14,11 @@ class CreateToolsTable extends Migration
     {
         Schema::create('tools', function (Blueprint $table) {
             $table->increments('id');
-            $table ->string('name');
+            $table ->string('title');
+            $table ->string('publisher');
             $table->string('description');
+            $table->string('category');
+            $table->string('os');
             $table->timestamps();
         });
     }
